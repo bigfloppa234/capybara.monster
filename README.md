@@ -1,1 +1,1 @@
-# capybara.monster
+# https://capybara.monster

@@ -16,9 +16,10 @@
             <meta property="twitter:description" content="">
             <meta property="twitter:image" content="https://capybara.monster/media/capybara_car.gif">
       </head>
-    <img src="/media/capybara_car.gif" width="485" height="450">
-    <audio autoplay>
-        <source src="capybara.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-    </audio>
+    <script>
+    function playAudio(url) {
+        new Audio(url).play();
+    }
+    </script>
+    <img src="/media/capybara_car.gif" width="485" height="450" onclick="playAudio('/media/capybara.mp3')">
 </html>
